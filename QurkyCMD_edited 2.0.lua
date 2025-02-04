@@ -609,7 +609,7 @@ if not genv.foundRemote then
 	remotePath.Text = "no remote found, aborting..."
 	task.wait(3)
 	gui:Destroy()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source'))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/main/Source.lua"))();
 	return debugPrint("no silly remote found :( try a game from #confirmed-games in the server") 
 end
 
