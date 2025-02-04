@@ -606,7 +606,7 @@ if not genv.foundRemote then
 end
 
 if not genv.foundRemote then 
-	remotePath.Text = "no remote found, aborting..."
+	remotePath.Text = "no remote found, loading client sided version..."
 	task.wait(3)
 	gui:Destroy()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/main/Source.lua"))();
