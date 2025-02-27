@@ -1,0 +1,1 @@
+loadstring(game:HttpGet('https://raw.githubusercontent.com/FuturisticSearch/QurkyCMD_Edited/refs/heads/main/QurkyCMD_edited%202.0.lua'))()
